@@ -149,3 +149,4 @@ busType::busType(int busIDNum, int numbOfSeats, int driverIDNum)
 	numberOfSeats = numbOfSeats;
 	driverID = driverIDNum;
 }
+ 
