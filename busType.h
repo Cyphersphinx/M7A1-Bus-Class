@@ -16,32 +16,32 @@ public:
       //                The function checks whether the value of seatNum is valid,
       //                the default value of 0 is assigned 
       
-      void setDriverName(int driverNumber);
+      void setDriverID(int driverNumber);
       //Function to set the bus driver's ID number 
       //Parameters passed: The nameOfDriver is set according to the parameter
       //PostCondition:  driverNumber = driverID;
       //                The function checks whether the value of driverIDNum is valid,
       //                the default value of 0 is assigned 
       
-      int returnBusID() const;
+      int getBusID() const;
       //Function: to return the bus ID number 
       //Parameters passed: none
       //PostCondition:  The value of busIDNumber is returned
       //
       
-      int returnNumOfSeats() const;
+      int getNumOfSeats() const;
       //Function: to return the number of seats for the bus
       //Parameters passed: none
       //PostCondition:  The value of numberOfSeats is returned
       //
       
-      int returnDriverID() const;
+      int getDriverID() const;
       //Function: to return the bus driver's ID number
       //Parameters passed: none
       //PostCondition:  The value of driverID is returned
       //
       
-      int returnCurrentSpeed() const;
+      int getCurrentSpeed() const;
       //Function: to return the current speed of the bus
       //Parameters passed: none
       //PostCondition:  The value of busSpeed is returned
@@ -85,3 +85,4 @@ public:
       int driverID;  // variable to store the bus driver's ID number
       int busSpeed;  // variable to store speed of the bus
 };
+
