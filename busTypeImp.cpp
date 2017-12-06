@@ -32,7 +32,7 @@ void busType::setNumOfSeats(int seatNum)
 		numberOfSeats = 33;
 }
 
-void busType::setDriverName(int driverNumber)
+void busType::setDriverID(int driverNumber)
 {
     //Function to set the bus driver's ID number 
     //Parameters passed: The nameOfDriver is set according to the parameter
@@ -42,7 +42,7 @@ void busType::setDriverName(int driverNumber)
 	driverID = driverNumber;
 }
 
-int busType::returnBusID() const
+int busType::getBusID() const
 {
     //Function: to return the bus ID number 
     //Parameters passed: none
@@ -52,7 +52,7 @@ int busType::returnBusID() const
 	return busIDNumber;
 }     
 
-int busType::returnNumOfSeats() const
+int busType::getNumOfSeats() const
 {  
     //Function: to return the number of seats for the bus
     //Parameters passed: none
@@ -62,7 +62,7 @@ int busType::returnNumOfSeats() const
 	return numberOfSeats;
 }     
       
-int busType::returnDriverID() const
+int busType::getDriverID() const
 {
     //Function: to return the bus driver's ID number
     //Parameters passed: none
@@ -72,7 +72,7 @@ int busType::returnDriverID() const
 	return driverID;
 }
       
-int busType::returnCurrentSpeed() const
+int busType::getCurrentSpeed() const
 {
     //Function: to return the current speed of the bus
     //Parameters passed: none
